@@ -25,7 +25,7 @@ export const GifCategoria = ({ categoria }) => {
       <div className="card-header">
         { categoria }
       </div>
-      <div className="card-body card-body-height">
+      <div className="card-img-top">
         <div id={"carouselExampleControls"+idImg} className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
                 { imagenes.map( (imagen,i) => (
