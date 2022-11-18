@@ -6,7 +6,7 @@ import { getGifs } from '../helpers/getGifs';
 export const GifCategoria = ({ categoria }) => {
 
   const [imagenes, setImagenes] = useState([]);
-  const [idImg, setIdImg] = useState(categoria.slice(0, 3));
+  const [idImg, setIdImg] = useState(Math.floor(Math.random() * 1000));
 
   const obtenerImagenes = async (categoria) => {
     const gifs = await getGifs(categoria);
