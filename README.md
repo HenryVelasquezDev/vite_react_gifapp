@@ -16,6 +16,10 @@ Este proyecto fue generado con vite [Vite](https://vitejs.dev/).
         cd <ruta_proyecto>
         npm run dev
 
+4. Configurar las variables de entorno basandose en el archivo .env del proyecto creando un archivo nuevo con la extension .env.local para el ambiente de desarrollo.
+
+5. Para obtener los datos correspondientes de las variables de entorno se debe ingresar a la pagina https://developers.giphy.com/ y crear un API_KEY propio y seguir la documentacion de los endpoint en https://developers.giphy.com/docs/api/endpoint#search 
+
 ## Descripción Proyecto
 
     El proyecto se genera a manera de realizar practicas basicas de React.
