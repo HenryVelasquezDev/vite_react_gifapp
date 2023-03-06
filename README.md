@@ -2,7 +2,7 @@
 
 Este proyecto fue generado con vite [Vite](https://vitejs.dev/).
 
-1. Se crea el proyecto con vite:
+1. Se crea el proyecto con vite  :
         
          npm create vite
 
